@@ -34,24 +34,3 @@ class Evidence:
             print("Pojiěnec nenalezen")
         else:
              print(vysledek)
-"""
-    def zadej_noveho_pojistence(self):
-    # Nechá uživatele vyplnit informace o novém pojištěnci
-        print("Zadat nové pojištěnce\n")
-        jmeno = input("Zadejte prosím křestní jméno pojištěnce: ")
-        prijmeni = input("Zadejte prosím příjmení pojištěnce: ")
-        vek = je_int("Zadejte prosím věk pojištěnce: ", "Prosím zadejte věk jako číslici")
-        telefon = input("Zadejte telefon pojištěnce: ")
-        self.uloz_pojistence_na_seznam(jmeno, prijmeni, vek, telefon)
-        #ulozi noveho pojistence na seznam
-        print("Nový pojištěnec byl přidaný na seznam")
-
-
-    def zobraz_pojistene(self):
-        # zobrazí seznam všech pojištěných
-        print("Aktuální seznam pojištěných:")
-        for pojistenec in self.seznam_pojistenych:
-           print(f"jméno: {pojistenec[0]}   příjmení:  {pojistenec[1]}   věk: {pojistenec[2]}    telefon: {pojistenec[3]}")
-
-    
-"""
